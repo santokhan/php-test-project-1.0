@@ -1,0 +1,61 @@
+.text-small {
+    font-size: 0.75rem;
+}
+
+.nav-bar .fas,
+.nav-bar .far,
+.nav-bar .fab {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 3px;
+    mix-blend-mode: hard-light;
+    border: 0.5px solid transparent;
+}
+
+.nav-bar .fas:hover,
+.nav-bar .far:hover,
+.nav-bar .fab:hover {
+    width: auto;
+    border: 0.5px solid var(--bs-white);
+}
+
+
+.opacity-10 {
+    opacity: 1;
+}
+
+.opacity-9 {
+    opacity: 0.9;
+}
+
+.opacity-8 {
+    opacity: 0.8;
+}
+
+.opacity-7 {
+    opacity: 0.7;
+}
+
+.opacity-6 {
+    opacity: 0.6;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.opacity-4 {
+    opacity: 0.4;
+}
+
+.opacity-3 {
+    opacity: 0.3;
+}
+
+.opacity-2 {
+    opacity: 0.2;
+}
+
+.opacity-1 {
+    opacity: 0.1;
+}

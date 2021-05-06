@@ -1,0 +1,17 @@
+.search-box>input {
+    position: relative;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.search-box>input:focus {
+    color: #ffffff;
+    background: transparent;
+}
+
+.search-box label {
+    position: absolute;
+    right: 7%;
+    bottom: 1%;
+}
