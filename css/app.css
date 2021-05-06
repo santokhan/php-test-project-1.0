@@ -1,0 +1,101 @@
+:root {
+    --navbar-width: 70px;
+    --bg-darken: #000111;
+    --border-white: rgba(255, 255, 255, 1);
+    --border-dark: rgba(0, 0, 0, 0.5);
+    /* Bootstrap root*/
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.nav-bar {
+    position: relative;
+    width: var(--navbar-width);
+    min-width: var(--navbar-width);
+    max-width: var(--navbar-width);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #fff;
+    background: var(--bg-darken);
+    border-left: 0.5px solid var(--border-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: var(--bg-darken);
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-left: 0.5px solid var(--bs-secondary);
+}
+
+/* scrollbar design */
+.app-container::-webkit-scrollbar-track {
+    width: 6px;
+    background: none;
+}
+
+.app-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.app-container::-webkit-scrollbar-thumb {
+    width: 6px;
+    background: #555;
+    border-radius: 6px;
+}
+
+.nav-bar::-webkit-scrollbar-track {
+    width: 6px;
+    background: none;
+}
+
+.nav-bar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav-bar::-webkit-scrollbar-thumb {
+    width: 6px;
+    background: #555;
+    border-radius: 6px;
+}
