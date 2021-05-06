@@ -1,2 +1,2 @@
 # php-test-project-1.0
-Only for practice.
+It is about only for practice.
